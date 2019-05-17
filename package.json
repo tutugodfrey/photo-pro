@@ -1,0 +1,20 @@
+{
+  "name": "photobombth",
+  "version": "1.0.0",
+  "description": "",
+  "productName": "Photobombth",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf Photobombth-* && electron-packager . --platform=darwin,win32,linux --arch=x64 --icon=app",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-packager": "^13.1.1",
+    "electron-prebuilt": "^1.4.13",
+    "rimraf": "^2.6.3"
+  }
+}
